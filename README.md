@@ -1,12 +1,12 @@
-# js-lab-111
-### Lab111 Array: การหาelement
-จงหา element ตัวแรก ใน inventory ที่มี name เท่ากับ cherries
+# js-lab-112
+### Lab112 Array: การหาindex
+จงหา index ใน tasks ที่มี id เท่ากับ 2
 
 ```JavaScript
-const inventory = [
-  { name: 'apples', quantity: 2 },
-  { name: 'bananas', quantity: 0 },
-  { name: 'cherries', quantity: 5 }
+const tasks = [
+  { id: 1, name: 'Fishing' },
+  { id: 2, name: 'Shopping' },
+  { id: 3, name: 'Swimming' }
 ];
-// expected result: { name: 'cherries', quantity: 5 }
+// expexted result: 1
 ```
